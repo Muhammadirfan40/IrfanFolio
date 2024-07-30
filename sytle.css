@@ -1,0 +1,239 @@
+/* Navbar  */
+
+
+body {
+    background: rgb(255, 247, 216);
+    background: rgb(255, 247, 216);
+    background: linear-gradient(90deg, rgba(255, 247, 216, 1) 0%, rgba(0, 129, 255, 0.25262605042016806) 100%);
+}
+
+@media screen and (min-width: 480px) {}
+
+
+#Hero {
+    background-image: url(./images/PicsArt_12-23-03.09.31.png);
+    height: 100vh;
+    position: relative;
+
+}
+
+
+.nav-color {
+    backdrop-filter: blur(10px);
+    /* Apply backdrop filter blur effect */
+    -webkit-backdrop-filter: blur(15px);
+    /* For Safari */
+    background-color: rgba(255, 255, 255, 0.093);
+    /* Adjust alpha for transparency */
+    transition: background-color 0.3s ease;
+    /* Smooth transition for background color change */
+
+}
+
+.nav-item .nav-link.active {
+    color: #17a2b8;
+    /* Change this color to your desired active color */
+    font-weight: bold;
+    /* Optional: make the active link bold */
+}
+
+
+.text-darkNav .nav-item a {
+    color: black !important;
+}
+
+.git {
+
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+   
+}
+
+.git:hover{
+    background-color: #088aa4f1;
+}
+
+.overlay {
+    height: 100vh;
+    width: 100%;
+    background-color: #000000a1;
+    position: absolute;
+
+}
+
+
+.introo {
+    height: 100vh;
+}
+
+/* About */
+
+#About {
+    background-color: #ffffff00;
+}
+
+.iconabout {
+    color: #daa520;
+}
+
+.about-img {
+    border-radius: 10px;
+}
+
+/* Skills */
+
+#skill {
+
+    background-color: #0a0a21c7;
+}
+
+.skills-card {
+    border: 1px solid white;
+    border-radius: 25px;
+    padding: 30px 20px 30px 20px;
+}
+
+/* .progress {
+    padding: 20px 100px;
+    border-radius: 15px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 23px;
+    font-weight: 700;
+} */
+
+
+
+/* Projects */
+
+#Projects {
+    background-color: #555555b3;
+}
+
+.trans {
+    transition: all 0.5s ease;
+}
+
+.trans:hover {
+    transform: scale(1.04);
+    object-fit: cover;
+
+}
+
+
+/* // `sm` applies to x-small devices (portrait phones, less than 576px) */
+/* @media (max-width: 320.98px) { 
+    .queryBTN{
+        font-size: 12px;
+        padding: 5px;
+
+    }
+ } */
+
+
+
+/* Education */
+
+
+/* Footer */
+
+#footer {
+    /* background-color: #343a40; */
+    background-color: #0a0a21c7;
+    color: #ffffff;
+}
+
+#footer h5 {
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+#footer a {
+    text-decoration: none;
+}
+
+#footer .social-icons a {
+    font-size: 1.5rem;
+}
+
+#footer .social-icons i {
+    transition: color 0.3s ease;
+}
+
+#footer .social-icons a:hover i {
+    color: #0d6efd;
+}
+
+#footer .text-center {
+    /* background-color: #212529; */
+    padding: 0.5rem;
+}
+
+/* .footer-bottom{
+    box-shadow: 10px 10px 5px 12px lightblue;
+} */
+
+.hrclaas {
+    border: 1px solid grey;
+    background-color: gray;
+}
+
+
+
+
+
+/* back to top css */
+
+
+#backToTop {
+
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+#backToTop:hover {
+    background-color: #555;
+}
+
+
+/* whatsup */
+
+#whatsApp {
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+    background-color: white;
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    text-decoration: none;
+}
+
+#whatsApp img {
+    width: 35px;
+    height: 35px;
+}
+
+/* #whatsApp:hover {
+    background-color: #128C7E;
+} */
