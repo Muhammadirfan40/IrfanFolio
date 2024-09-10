@@ -19,19 +19,20 @@ body {
 
 
 .nav-color {
-    backdrop-filter: blur(10px);
+    /* backdrop-filter: blur(10px); */
     /* Apply backdrop filter blur effect */
-    -webkit-backdrop-filter: blur(15px);
+    /* -webkit-backdrop-filter: blur(15px); */
     /* For Safari */
-    background-color: rgba(255, 255, 255, 0.093);
+    /* background-color: rgba(255, 255, 255, 0.093); */
+    /* background-color: gray; */
     /* Adjust alpha for transparency */
-    transition: background-color 0.3s ease;
+    /* transition: background-color 0.3s ease; */
     /* Smooth transition for background color change */
 
 }
 
 .nav-item .nav-link.active {
-    color: #17a2b8;
+    color: black;
     /* Change this color to your desired active color */
     font-weight: bold;
     /* Optional: make the active link bold */
@@ -40,6 +41,7 @@ body {
 
 .text-darkNav .nav-item a {
     color: black !important;
+    font-weight: bold ;
 }
 
 .git {
@@ -49,10 +51,10 @@ body {
     align-items: center;
     cursor: pointer;
     text-decoration: none;
-   
+
 }
 
-.git:hover{
+.git:hover {
     background-color: #088aa4f1;
 }
 
@@ -96,13 +98,19 @@ body {
 
 #skill {
 
-    background-color: #0a0a21c7;
+    /* background-color: #0a0a21c7; */
+    background-color: white;
 }
 
 .skills-card {
-    border: 1px solid white;
+    border: 1px solid black;
     border-radius: 25px;
     padding: 30px 20px 30px 20px;
+}
+
+.skills-title {
+    color: black !important;
+    font-weight: bolder;
 }
 
 /* .progress {
@@ -147,6 +155,11 @@ body {
 
 
 /* Education */
+
+
+.parag {
+    text-indent: 30px;
+}
 
 
 /* Footer */
