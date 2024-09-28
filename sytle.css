@@ -1,5 +1,12 @@
-/* Navbar  */
 
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+/* Navbar  */
 
 body {
     background: rgb(255, 247, 216);
@@ -158,11 +165,11 @@ body {
 }
 
 .trans {
-    transition: all 0.5s ease;
+    transition: all 0.7s ease;
 }
 
 .trans:hover {
-    transform: scale(1.04);
+    transform: scale(1.02);
     object-fit: cover;
 
 }
