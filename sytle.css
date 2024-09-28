@@ -63,9 +63,8 @@ body {
 .overlay {
     height: 100vh;
     width: 100%;
-    background-color: #000000a1;
+    background-color: #00000074;
     position: absolute;
-
 }
 
 
@@ -287,4 +286,3 @@ body {
 /* #whatsApp:hover {
     background-color: #128C7E;
 } */
-
